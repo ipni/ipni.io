@@ -1,4 +1,45 @@
 [[main]]
+  name = "Specs"
+  url = "/specs/overview"
+  identifier = "specs"
+  weight = 1
+
+    [[main]]
+    name = "Overview"
+    weight = 10
+    identifier = "overview"
+    url = "/specs/overview/overview"
+    parent = "specs"
+
+    [[main]]
+    name = "Ingestion"
+    weight = 20
+    identifier = "ingestion"
+    url = "/specs/ingestion/ingestion"
+    parent = "specs"
+
+    [[main]]
+    name = "Advertisement"
+    weight = 30
+    identifier = "advertisement"
+    url = "/specs/advertisement/advertisement"
+    parent = "specs"
+
+    [[main]]
+    name = "Advertisement Transfer"
+    weight = 40
+    identifier = "advertisement_transfer"
+    url = "/specs/advertisement_transfer/transfer"
+    parent = "specs"
+
+    [[main]]
+    name = "Announcements"
+    weight = 40
+    identifier = "announcements"
+    url = "/specs/announcements/announcements"
+    parent = "specs"
+
+[[main]]
   name = "Docs"
   url = "/docs/basics/copy-the-template/"
   identifier = "docs"
@@ -25,34 +66,6 @@
       url = "/docs/menus/dropdown/"
       parent = "docs"
 
-
-[[main]]
-  name = "Reference"
-  url = "/docs/basics/copy-the-template/"
-  weight = 1
-  identifier = "reference"
-
-    [[main]]
-      name = "Commands"
-      weight = 10
-      identifier = "reference-commands"
-      url = "/reference/commands"
-      parent = "reference"
-
-    [[main]]
-      name = "Configuration"
-      weight = 20
-      identifier = "reference-configuration"
-      url = "/reference/configuration"
-      parent = "reference"
-
-    [[main]]
-      name = "Front-matter"
-      weight = 30
-      identifier = "reference-front-matter"
-      url = "/reference/front-matter"
-      parent = "reference"
-
 [[main]]
   name = "Blog"
   url = "/blog/"
@@ -63,7 +76,7 @@
 [[social]]
   name = "GitHub"
   pre = "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-github\"><path d=\"M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22\"></path></svg>"
-  url = "https://github.com/protocol/docs-starter"
+  url = "https://github.com/ipni/"
   post = "v0.1.0"
   weight = 10
 
@@ -75,17 +88,17 @@
 
 
 
-[[footer]]
-  name = "Privacy"
-  url = "/privacy"
-  weight = 10
+#[[footer]]
+#  name = "Privacy"
+#  url = "/privacy"
+#  weight = 10
+#
+#[[footer]]
+#  name = "Terms"
+#  url = "/terms"
+#  weight = 20
 
-[[footer]]
-  name = "Terms"
-  url = "/terms"
-  weight = 20
-
-[[footer]]
-  name = "Contact"
-  url = "/contact"
-  weight = 30
+#[[footer]]
+#  name = "Contact"
+#  url = "/contact"
+#  weight = 30
