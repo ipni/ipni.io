@@ -65,8 +65,7 @@ defaultImage = "default-image.png" # put in `./assets/images/`
 fillImage = "1270x740 Center" # normalize image size
 
 # Footer
-footer = ""
-# footer = 'Powered by <a class="text-muted" href="example.com">Example</a>, <a class="text-muted" href="https://gohugo.io">Hugo</a>, and <a class="text-muted" href="https://protocol.ai">Protocol Labs</a>'
+footer = 'Maintained by the <a href="https://github.com/ipni">IPNI team</a>.'
 
 # Feed
 copyRight = ""
