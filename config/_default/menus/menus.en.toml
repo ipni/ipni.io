@@ -1,70 +1,8 @@
 [[main]]
   name = "Specs"
-  url = "/specs/overview"
+  url = "https://github.com/ipni/specs"
   identifier = "specs"
   weight = 1
-
-    [[main]]
-    name = "Overview"
-    weight = 10
-    identifier = "overview"
-    url = "/specs/overview/overview"
-    parent = "specs"
-
-    [[main]]
-    name = "Ingestion"
-    weight = 20
-    identifier = "ingestion"
-    url = "/specs/ingestion/ingestion"
-    parent = "specs"
-
-    [[main]]
-    name = "Advertisement"
-    weight = 30
-    identifier = "advertisement"
-    url = "/specs/advertisement/advertisement"
-    parent = "specs"
-
-    [[main]]
-    name = "Advertisement Transfer"
-    weight = 40
-    identifier = "advertisement_transfer"
-    url = "/specs/advertisement_transfer/transfer"
-    parent = "specs"
-
-    [[main]]
-    name = "Announcements"
-    weight = 50
-    identifier = "announcements"
-    url = "/specs/announcements/announcements"
-    parent = "specs"
-
-# [[main]]
-#   name = "Docs"
-#   url = "/docs/basics/copy-the-template/"
-#   identifier = "docs"
-#   weight = 1
-
-#     [[main]]
-#       name = "Basics"
-#       weight = 10
-#       identifier = "docs-basics"
-#       url = "/docs/basics/start-here"
-#       parent = "docs"
-
-#     [[main]]
-#       name = "Features"
-#       weight = 20
-#       identifier = "docs-features"
-#       url = "/docs/features/code-tabs/"
-#       parent = "docs"
-
-#     [[main]]
-#       name = "Menus"
-#       weight = 30
-#       identifier = "docs-menus"
-#       url = "/docs/menus/dropdown/"
-#       parent = "docs"
 
 # [[main]]
 #   name = "Blog"
