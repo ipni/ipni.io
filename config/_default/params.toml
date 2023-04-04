@@ -72,7 +72,7 @@ copyRight = ""
 # copyRight = "Copyright (c) Protocol Labs"
 
 # Alert
-alert = true
+alert = false
 alertDismissable = true
 alertText = "This alert pops up at the top of the webpage. It's useful to ask users for cookies and all that GDPR stuff."
 

@@ -62,3 +62,109 @@ p.meta {
 .page-link:hover {
   text-decoration: none;
 }
+
+.home {
+  .fold {
+    position: relative;
+    background-image: url("/images/fiberoptic-cables.jpg");
+    &:after {
+      content: '';
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #1d2d35;
+      opacity: 0.6;
+      z-index: 3;
+    }
+    .heading, .subheading {
+      position: relative;
+      z-index: 10;
+      color: white;
+    }
+    .heading {
+      padding: 10rem 0 3rem;
+      font-size: 6rem;
+      @media only screen and (max-width: 480px){
+        font-size: 4rem;
+      }
+    }
+  }
+  .why-ipni {
+    background-color: #fbf7f0;
+    color: #1d2d35;
+    .content {
+      padding-top: 6rem;
+    }
+    h2 {
+      opacity: 0.8;
+    }
+    a {
+      color: #5d2f86;
+    }
+  }
+  .partners {
+    background-color: #C5E6F1;
+    color: #1d2d35;
+    padding: 5rem 0;
+    .section-heading {
+      font-size: 2.5rem;
+      font-weight: 400;
+      text-transform: uppercase;
+      padding-bottom: 2rem;
+    }
+    .row {
+      padding-bottom: 2rem;
+      @media only screen and (max-width: 767px){
+        padding-bottom: 0;
+      }
+    }
+  }
+
+  .media {
+    position: relative;
+    background-color: #fbf7f0;
+    color: #1d2d35;
+    padding: 7rem 2rem;
+    overflow: hidden;
+    .section-heading {
+      font-size: 4rem;
+    }
+    .main-video {
+      p {
+        width: 80%;
+      }
+    }
+    .content {
+      position: relative;
+      z-index: 10;
+    }
+    .image-container-1,.image-container-2, .image-container-3 {
+      position: absolute;
+      z-index: 4;
+    }
+    .image-container-1 {
+      top: -6rem;
+      left: 10rem;
+      width: 27rem;
+      height: auto;
+      transform: rotate(200deg);
+    }
+    .image-container-2 {
+      top: -4rem;
+      right: 0;
+      width: 16rem;
+      height: auto;
+      transform: rotate(45deg);
+    }
+    .image-container-3 {
+      bottom: -5rem;
+      left: 45%;
+      width: 30rem;
+      height: auto;
+      transform: rotate(25deg);
+    }
+  }
+}
