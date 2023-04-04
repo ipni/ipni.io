@@ -1,7 +1,7 @@
 # Meta Data for SEO
 
 ## Homepage
-title = "Docs Starter"
+title = "IPNI"
 titleSeparator = "-"
 titleAddition = "A simple documentation platform to get your started."
 description = "This documentation platform helps teams write, build, and deploy a simple documentation site that's easy for users to navigate and for teams to maintain."
@@ -65,15 +65,14 @@ defaultImage = "default-image.png" # put in `./assets/images/`
 fillImage = "1270x740 Center" # normalize image size
 
 # Footer
-footer = ""
-# footer = 'Powered by <a class="text-muted" href="example.com">Example</a>, <a class="text-muted" href="https://gohugo.io">Hugo</a>, and <a class="text-muted" href="https://protocol.ai">Protocol Labs</a>'
+footer = 'Maintained by the <a href="https://github.com/ipni">IPNI team</a>.'
 
 # Feed
 copyRight = ""
 # copyRight = "Copyright (c) Protocol Labs"
 
 # Alert
-alert = true
+alert = false
 alertDismissable = true
 alertText = "This alert pops up at the top of the webpage. It's useful to ask users for cookies and all that GDPR stuff."
 
