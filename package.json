@@ -60,7 +60,7 @@
     "node-fetch": "^3.2",
     "purgecss-whitelister": "^2.4",
     "shx": "^0.3.4",
-    "stylelint": "^14.9",
+    "stylelint": "^15.10",
     "stylelint-config-standard-scss": "^4.0"
   },
   "otherDependencies": {
