@@ -66,7 +66,7 @@ p.meta {
 .home {
   .fold {
     position: relative;
-    background-image: url("/images/ipni_logo.png");
+    background-image: url("/images/ipni-bg.jpg");
     &:after {
       content: '';
       display: block;
@@ -109,6 +109,42 @@ p.meta {
     background-color: #C5E6F1;
     color: #1d2d35;
     padding: 5rem 0;
+    .section-heading {
+      font-size: 2.5rem;
+      font-weight: 400;
+      text-transform: uppercase;
+      padding-bottom: 2rem;
+    }
+    .row {
+      padding-bottom: 2rem;
+      @media only screen and (max-width: 767px){
+        padding-bottom: 0;
+      }
+    }
+  }
+
+  .features {
+    background-color: #ffffff;
+    color: #1d2d35;
+    padding: 5rem 0;
+    .section-heading {
+      font-size: 2.5rem;
+      font-weight: 400;
+      text-transform: uppercase;
+      padding-bottom: 2rem;
+    }
+    .row {
+      padding-bottom: 2rem;
+      @media only screen and (max-width: 767px){
+        padding-bottom: 0;
+      }
+    }
+  }
+
+  .media_new {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 0.05rem;
     .section-heading {
       font-size: 2.5rem;
       font-weight: 400;
@@ -167,4 +203,20 @@ p.meta {
       transform: rotate(25deg);
     }
   }
+}
+
+.ipni-gray {
+  color: #5A626E;
+}
+
+.ipni-light-gray {
+  color: #97A1AF;
+}
+
+.f-30 {
+  font-size: 30px;
+}
+
+.f-18 {
+  font-size: 18px;
 }
