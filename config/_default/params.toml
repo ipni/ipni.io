@@ -3,8 +3,8 @@
 ## Homepage
 title = "IPNI"
 titleSeparator = "-"
-titleAddition = "A simple documentation platform to get your started."
-description = "This documentation platform helps teams write, build, and deploy a simple documentation site that's easy for users to navigate and for teams to maintain."
+titleAddition = "A lookup protocol designed to gather the most up-to-date details of data stored in Filecoin and on IPFS,"
+description = "This documentation describes IPNI protocol and provides resources for further learning."
 
 ## Documentation
 # docsVersion = "0.3"
@@ -108,7 +108,6 @@ lastMod = false
   scrollSpy = false # experimental; needs Bootstrap >= 5.2.0-beta1
   progressBar = true
   readtime = true
-  react-slick = true
 
 
 [menu]
