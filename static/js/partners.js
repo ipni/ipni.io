@@ -93,3 +93,6 @@ export function partners(){
             </div>
         );
 }
+
+ReactDOM.render(React.createElement(partners),
+    document.getElementById("partners"));

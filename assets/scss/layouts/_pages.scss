@@ -69,6 +69,8 @@ p.meta {
     background-image: url("/images/IPNI_Header_large.png");
     background-size: cover;
     background-repeat: no-repeat;
+    width: 100%;
+    height: fit-content;
     &:after {
       content: '';
       display: block;
